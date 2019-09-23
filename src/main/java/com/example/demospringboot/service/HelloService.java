@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 public class HelloService {
     public String getHello()
     {
-        return "hello world";
+        return "<html><head></head><body>hello world</body></html>";
     }
 }
